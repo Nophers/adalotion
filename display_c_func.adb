@@ -1,7 +1,7 @@
 with Interfaces.C; use Interfaces.C;
 with Ada.Text_IO;  use Ada.Text_IO;
 
-procedure Show_C_Func is
+procedure Display_C_Func is
 
    function my_func (a : int) return int with
       Import     => True,
@@ -22,4 +22,4 @@ begin
    Put_Line ("Result is " & int'Image (V));
 
    Put_Line ("Function was called " & int'Image (func_cnt) & " times");
-end Show_C_Func;
+end Display_C_Func;
