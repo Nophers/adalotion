@@ -28,6 +28,14 @@ $ <filename>.ads => this is used for Subprograms
 
 $ <filename>.ali => this is for logs (after compiling)
 ```
+
+## Project 
+- This is a small example how to create a multi-language project.
+
+The core-base is written in Ada, while the headers and helper functions are written in raw C. 
+
+
+Don't know Ada? Read this:
 <hr>
 
 - **Language basics**
